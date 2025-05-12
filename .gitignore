@@ -1,0 +1,43 @@
+# Next.js specific
+.next/
+out/
+build/
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Go specific
+bin/
+*.exe
+*.o
+*.a
+
+# Go modules (if you are using them)
+go.sum
+go.mod
+
+# Environment variables
+.env
+.env.*.local
+.env.development
+.env.development.local
+.env.production
+.env.production.local
+
+# Logs and temp files
+*.log
+tmp/
+temp/
+__pycache__/ # If you have any Python in the project
+.DS_Store   # macOS specific
+
+# Editor and IDE specific files
+.vscode/
+.idea/
+*.swp       # Vim swap files
+*.swo       # Vim swap files
+*.iml       # IntelliJ IDEA project files
+
+# Other common ignores
+.DS_Store
